@@ -27,5 +27,11 @@ body {
 }
 #content > p {
   margin: 1rem;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
+  /* width: fit-content; */
+   display:flex;
+  /*justify-content:space-between */
+  > label{
+    min-width: 30%;
+  }
 }

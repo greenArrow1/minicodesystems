@@ -25,3 +25,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+#content > p {
+  margin: 1rem;
+  border: 1px solid grey;
+}

@@ -2,6 +2,7 @@
 import '../app/globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+
 export default function About() {
   return (
     <main className="flex min-h-screen flex-col justify-between p-24">
@@ -20,7 +21,9 @@ export default function About() {
         </p>
         <p>
         <label htmlFor="email">Email</label>
-          <input id="email" type='email' placeholder='Email'/>
+          <input id="email" type='email' placeholder='Email' onClick={()=>{
+            //router.push('/about', { scroll: false });
+          }}/>
         </p>
         <p>
         <label htmlFor="phoneNumber">Mobile #</label>

@@ -10,7 +10,7 @@ export default function About() {
         <h1 style={{ fontSize: "xxx-large" }}>Contact Us</h1>
         <p >
           For any query or to discuss about any project,&nbsp;
-          <code className="font-mono font-bold">Let&aposs talk.</code>
+          <code className="font-mono font-bold">Let&apos;talk.</code>
         </p>
       </div>
       <div style={{display:'flex', flexDirection:'row', justifyContent: "space-between"}}>

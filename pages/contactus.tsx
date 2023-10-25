@@ -14,7 +14,7 @@ export default function Contact() {
         </p>
       </div>
       <div style={{display:'flex', flexDirection:'row', justifyContent: "space-between"}}>
-        <div  id='content' style={{width: "80%",display: "inline-flex"}}>
+        <div  id='content' style={{width: "50%"}}>
         <p style={{}}>
           <label htmlFor="name">Name</label>
           <input id='name' type='text' placeholder='Full Name' />

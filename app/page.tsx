@@ -55,7 +55,7 @@ const router = useRouter()
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`} onClick={() => router.push('/about')}>
+          <h2 className={`mb-3 text-2xl font-semibold`}>
             About Us{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
@@ -99,9 +99,9 @@ const router = useRouter()
             Explore the Next.js 13 playground.
           </p>
         </a>
-
+        {/* onClick={() => router.push('/about')} */}
         <a
-          href="/about"
+          href="/contactus"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
